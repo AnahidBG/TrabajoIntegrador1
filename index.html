@@ -9,91 +9,160 @@
 </head>
 
 <body>
+
     <header>
-        
-        <img class="logo-imagen" src="./pottilogo1.jpg" alt="LogoPotti">
-        <h1 class="PottiTiendaOnline"> Potti Tienda Online</h1>
-
-        <nav>
-            <a href="./Empresa.html" target="_blank"><mark>Empresa.</mark></a>
-            <a href="./Productos.html" target="_blank"><mark>Productos.</mark></a> 
-            <a href="./Registro.html" target="_blank"><mark>Registro.</mark></a> 
-            <a href="./Mi-cuenta.html" target="_blank"><mark>Mi cuenta.</mark></a> 
-            <a href="./Contacto.html" target="_blank"><mark>Contacto.</mark></a> 
+        <nav class="prueba">
+            <div class="div_navegador">
+                <img class="logo-imagen" src="./imagenes/pottilogo1.jpg" alt="LogoPotti">
+                <h1 class="PottiTiendaOnline"> Potti Tienda Online</h1>
+            </div>
+            
+            <div class="div_navegador">
+          
+                <a href="./Empresa.html" target="_blank">Empresa.</a>
+                <a href="./Productos.html" target="_blank">Productos.</a> 
+                <a href="./Registro.html" target="_blank">Registro.</a> 
+                <a href="./Mi-cuenta.html" target="_blank">Mi cuenta.</a> 
+                <a href="./Contacto.html" target="_blank">Contacto.</a> 
+            </div>
         </nav>
+           
+       
     </header>
-        <hr>
+        <hr></hr>
 
-    
+    <div class="descuento">
 
-        <div class="descuento">
-            <h2><em>Hasta 30% de descuento</em></h2> 
-            <h3> <em>6 cuotas sin intereses</em></h3>
-        </div>
-    
-
-        <!--Lista ordenada-->
-
-        <ol>
-            <a href="#productos" alt="Productos"> <strong> Productos </strong></a>
-            <li>Mochilas</li>
-            <li>Cartucheras</li>
-            <li>Cuadernos</li>
-            <li>Remeras</li>
-        </ol>
-    
-    <div>
-        <!--Lista NO ordenada--> 
-    
-        <ul>
-            <strong>Personajes</strong>
-            <li>Harry Potter</li>
-            <li>Ron Weasley</li>
-            <li>Hermione Granger</li>
-            <li>Draco Malfoy</li>
-        </ul>
+        <h2><em>Hasta 30% de descuento</em></h2> 
+        <h3> <em>6 cuotas sin intereses</em></h3>
     </div>
 
-        <!--Productos-->
-        <p>¡<a href="#formulario" alt="Formulario"> <strong>Contanos</strong></a> que otros productos queres!</p> <br>    
-    
-        <div>
-         <h3 id="productos">PRODUCTOS</h3>  
-         <img src="./cartu1.jpg" alt="Cartuchera Harry Potter" title="Cartuchera">
-         <img src="./cuadern1.jpg" alt="Cuaderno Harry Potter" title="Cuaderno">
-         <img src="./mochi1.jpg" alt="Mochila Harry Potter" title="Mochila">
-         <img src="./reme1.jpg" alt="Remera Harry Potter" title="Remera"> <br>
-        </div>
-        <!--FORMULARIO-->
-        <div>
+        <!--Lista ordenada-->
+    <div class="contenedor-elementos">
 
-            <h3 id="formulario">FORMULARIO</h3>  
-
-            <form action="mailto: juanita@gmail.com" method="get">
-                <label>Nombre</label>
-                <input type="text" placeholder="Nombre"> <br>
-    
-                <label>DNI</label>
-                <input type="number" placeholder="DNI"><br>
-    
-                <label>E mail</label>
-                <input type="email" placeholder="Email"><br>
-    
-                <label>Asunto</label>
-                <input type="Asunto" placeholder="Asunto"><br>
-    
-                <label>Telefono</label>
-                <input type="number" placeholder="Telefono"><br>
-    
-                <label>Mensaje a enviar</label>
-                <textarea name="Mensaje" cols="30" rows="10" placeholder="Escribi tu mensaje"></textarea> <br>
-    
-                <button type="submit">Enviar</button>
-    
-            </form>
+        <div class="elementos">
+            
+            <a href="#productos" alt="Productos"> <strong> <h3>Productos</h3> </strong></a>
+            <ul>
+                <li>Mochilas.</li>
+                <li> Cartucheras.</li>
+                <li>Cuadernos.</li>
+                <li>Remeras.</li>
+            </ul>
+            
+        
         </div>
 
-   
-   
+        <div class="elementos"><br>
+            
+            <strong><h3>Personajes</h3></strong>
+            <ul>
+           <li>Harry Potter. </li>
+           <li>Ron Weasley.</li>
+           <li>Hermione Granger.</li>
+           <li>Draco Malfoy.</li>
+            </ul>
+                
+        </div>
+
+        <div class="elementos">
+            
+            <strong><h3>Juegos</h3></strong>
+            <ul>
+             <li> Memoria.</li>
+             <li> Ajedrez. </li>
+             <li> ¿Quién es quien?</li>
+             <li> ¡A dibujar!</li>
+
+            </ul>
+                
+        </div>
+    </div>    
+        <!--Productos--> 
+        <div class="contanos">
+            <p> ¡<a href="#form-productos" alt="Formulario"> <strong>Contanos </strong></a>que otros productos queres!</p> <br>    
+        </div>
+
+        <div id="productos">
+         <h3 >PRODUCTOS</h3> 
+
+            <div class="columnax4"> 
+                <h4>CARTUCHERA</h4>
+                <img src="./imagenes/cartucherahp3.png" alt="Cartuchera Harry Potter" title="Cartuchera">
+                <h5>$4.000</h5>
+                <p>Deslumbra a tus amigos con la magia del paraiso de Harry Potter.</p>
+            </div>
+
+            <div class="columnax4">
+                <h4>CUADERNO</h4>
+                <img src="./imagenes/cuadernoshp6.png" alt="Cuaderno Harry Potter" title="Cuaderno">
+                <h5>$2.000</h5>
+                <p>Como Hermine, lleva siempre un cuaderno con vos.</p>
+            </div>
+
+            <div class="columnax4">
+                <h4>MOCHILA</h4>
+                <img src="./imagenes/mochilahp3.png" alt="Mochila Harry Potter" title="Mochila">
+                <h5>$7.000</h5>
+                <p>Lleva la magia a donde sea que vayas.</p>
+            </div>
+
+            <div class="columnax4">
+                <h4>REMERA</h4>
+                <img src="./imagenes/remerahp4.png" alt="Remera Harry Potter" title="Remera"> 
+                <h5>$9.000</h5>
+                <p>Volvete parte de este mundo con estas remeras.</p>
+            </div>
+         
+         <br>
+        </div> 
+
+        <br><br><br><br><br><br><br><br>
+
+
+        
+        <div class="productos2">
+            <h3>OTROS DE NUESTROS PRODUCTOS</h3> 
+
+            <div class="columnax2">
+                <UL>
+                    <li><img src="./imagenes/cuadern1.jpg" alt="CuadernoA"></li>
+                    <li><img src="./imagenes/matehp1.png" alt="CartuA"></li>
+                    <li><img src="./imagenes/juegohp2.png" alt="RemeraA"></li>
+                    <li><img src="./imagenes/mochi1.jpg" alt="MochilaA"></li>
+                </UL>
+            </div>
+
+            <div class="columnax2">
+                <UL>
+                    <li><img src="./imagenes/ajedrezhp1.png" alt="AjedrezA"></li>
+                    <li><img src="./imagenes/cuadernohp1.png" alt="CuadernoB"></li>
+                    <li><img src="./imagenes/juegohp1.png" alt="JuegoA"></li>
+                    <li><img src="./imagenes/remerahp1.png" alt="RemeraA"></li>
+                </UL>
+            </div>
+
+        </div>
+
+    
+    <div id="form-productos">
+
+        <h3>¿Qué producto agregarias en Potti?</h3>
+        <form action="mailto: juanita@gmail.com" method="get">
+            <label>Nombre</label>
+            <input class="control" type="text" placeholder="Nombre">
+            <label>¡Dejanos tu E mail para avisarte cuando lo tengamos en stock!</label>
+            <input class="control" type="email" placeholder="Email">
+            
+            <label>Ahora si, contanos, ¿Qué producto agregarias a nuestra tienda?</label>
+            <textarea class="control" name="Mensaje"  placeholder="Tu producto"></textarea> <br>
+
+            <button class="boton" type="submit"> Enviar </button>
+
+
+        </form>
+
+    </div>
+
 </body>
 </html>
