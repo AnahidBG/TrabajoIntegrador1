@@ -156,19 +156,22 @@ label{
 
 .productos2{
     width: 100%;
+    display: flex;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    flex-direction: column;
 }
 
 .productos2 li{
     list-style: none;
 }
 
-
+/*.productos2 > h3{
+    width: 20%;
+}*/
 
 .columnax2{
     width: 50%;
-    float: left;
     padding: 10px 10px;
     box-sizing: border-box;
 }
@@ -176,4 +179,9 @@ label{
 .columnax2 img {
     height: 250px;
     width: 50%;
+}
+
+.tituloProductos2{
+    display: flex;
+    justify-content: center;
 }
